@@ -1,9 +1,11 @@
 package god_of_java.ch21;
 
+import java.util.ArrayList;
+
 public class CarWildcardSample {
     public static void main(String[] args) {
         CarWildcardSample sample=new CarWildcardSample();
-
+        ArrayList<CarWildcardSample> sampleArrayList=new ArrayList<>();
         sample.callBoundedWildcardSample();
     }
 
