@@ -18,5 +18,4 @@ public class Studying {
         ayaan.setSubject(korean);
         ayaan.study();
     }
-    HashMap
 }
